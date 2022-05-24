@@ -12,12 +12,10 @@ $(function () {
       }
     });
   
-    $("#loginButton").click(function () {
-      $("#loginModal").modal("show");
-    });
   
-    $("#reserveButton").click(function () {
-      $("#reserveModal").modal("show");
+  
+    $("#bookButton").click(function () {
+      $("#bookModal").modal("show");
     });
   });
   

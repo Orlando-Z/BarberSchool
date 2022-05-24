@@ -1,12 +1,10 @@
 body {
   font-family: "Open Sans", sans-serif; }
+  
 
-h1, h2, h3 {
-  font-family: "Lobster", cursive;
-  color: red; }
 
-h2 {
-  color: #3046C5; }
+
+
 
 header h2 {
   color: #CEC8FF; }
@@ -17,7 +15,7 @@ header h2 {
 
 .jumbotron {
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  background-image: linear-gradient(to right, black, #5d5c6e, black);
   color: white;
   margin: 0; }
 
@@ -27,7 +25,7 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
-  background-color: #901CAD; }
+  background-color: black; }
 
 a, a:hover {
   color: inherit;
@@ -37,7 +35,9 @@ a, a:hover {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid #5637dd; }
+  border: 1px solid black;
+  width: 450px;
+  height: 300px; }
 
 #carouselButton {
   position: absolute;
@@ -45,13 +45,25 @@ a, a:hover {
   bottom: 0;
   z-index: 100; }
 
-#reserveModal .modal-header {
-  background-color: #17A2B8;
-  color: white; }
-
-#loginModal .modal-header {
-  background-color: #901CAD;
-  color: white; }
-
 .top-title {
   color: black; }
+  
+.nav-logo {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  
+}  
+.top-logo {
+  border-radius: 50%;
+  width: 125px
+}
+.aboutUsSection {
+  background-color: gray;
+  border: 5px gray solid;
+}
+.enrollSection {
+  background-color: gray;
+}
+
+  
