@@ -1,5 +1,6 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  background-color: black; }
   
 
 
@@ -10,7 +11,7 @@ header h2 {
   color: #CEC8FF; }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background-image: linear-gradient(to right, black, #5d5c6e, black);
   padding: 20px 0; }
 
 .jumbotron {
@@ -66,4 +67,6 @@ a, a:hover {
   background-color: gray;
 }
 
-  
+ .contactUsSection {
+  background-color: gray;
+ } 

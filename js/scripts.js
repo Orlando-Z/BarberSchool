@@ -11,8 +11,10 @@ $(function () {
         $("#carouselButton").children("i").addClass("fa-pause");
       }
     });
-  
-  
+
+    $("#contactButton").click(function () {
+      $("#contactModal").modal("show");
+    });
   
     $("#bookButton").click(function () {
       $("#bookModal").modal("show");
